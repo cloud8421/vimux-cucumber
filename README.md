@@ -43,5 +43,6 @@ CONTRIBUTORS:
 - [Claudio Ortolina](http://github.com/cloud8421)
 
 Original code by:
+
 - [Drew Olson](https://github.com/drewolson)
 - [Paul Gross](https://github.com/pgr0ss)
