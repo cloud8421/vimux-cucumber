@@ -1,7 +1,7 @@
 WHAT?
 ====================
 
-Heavily inspired by Vimux-ruby-test. Most of the codebase is directly taken from that plugin itself.
+Heavily inspired by [Vimux-ruby-test](https://github.com/pgr0ss/vimux-ruby-test). Most of the codebase is directly taken from that plugin itself.
 
 - Run the feature your cursor is currently on
 - Run the entire feature you are working in
