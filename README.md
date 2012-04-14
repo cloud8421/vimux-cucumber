@@ -19,10 +19,12 @@ in your .vimrc for easy access.
 IMPORTANT: if you use this plugin and Vimux-Ruby-Test, you may want to share the same shortcut.
 If you do, you can use the following configuration:
 
-    autocmd FileType ruby map <buffer> <Leader>f :RunRubyFocusedTest<CR>
-    autocmd FileType ruby map <buffer> <Leader>t :RunAllRubyTests<CR>
-    autocmd FileType cucumber map <Leader>f :RunFocusedCuke<CR>
-    autocmd FileType cucumber map <Leader>t :RunAllCukes<CR>
+    if exists('$TMUX')
+      autocmd FileType ruby map <buffer> <Leader>f :RunRubyFocusedTest<CR>
+      autocmd FileType ruby map <buffer> <Leader>t :RunAllRubyTests<CR>
+      autocmd FileType cucumber map <Leader>f :RunFocusedCuke<CR>
+      autocmd FileType cucumber map <Leader>t :RunAllCukes<CR>
+    endif
 
 This assumes that your Vim configuration recognizes Cucumber features with the `cucumber` file type.
 
